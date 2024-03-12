@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1C00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Observational xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1C00.xsd">
+	<Identification_Area>
+		<logical_identifier>HX1-Ro_GRAS_NaTeCamB-F-002_SCI_N_20220412171345_20220412171345_00325.2C</logical_identifier>
+		<version_id>1.0</version_id>
+		<title>HX-1 mission</title>
+		<information_model_version>1.12.0.0</information_model_version>
+		<product_class>Product_Observational</product_class>
+		<Modification_History>
+			<Modification_Detail>
+				<modification_date>2019-01-11</modification_date>
+				<version_id>1.0</version_id>
+				<description>The version one.</description>
+			</Modification_Detail>
+			<Modification_Detail>
+				<modification_date>None</modification_date>
+				<version_id>None</version_id>
+				<description>None</description>
+			</Modification_Detail>
+		</Modification_History>
+	</Identification_Area>
+	<Reference_List>
+		<Source_Product_Internal>
+			<lidvid_reference>HX1-Ro_GRAS_NaTeCamB-F-002_SCI_N_20220412171345_20220412171345_00325_A.2B</lidvid_reference>
+			<reference_type>data_to_calibrated_source_product</reference_type>
+			<comment />
+		</Source_Product_Internal>
+	</Reference_List>
+	<Observation_Area>
+		<Time_Coordinates>
+			<start_date_time>2022-04-12T17:13:45.300000Z</start_date_time>
+			<stop_date_time>2022-04-12T17:13:45.300000Z</stop_date_time>
+			<local_mean_solar_time>00325M10:14:00.443</local_mean_solar_time>
+			<local_true_solar_time>00325 10:51:13</local_true_solar_time>
+			<solar_longitude>207.58</solar_longitude>
+		</Time_Coordinates>
+		<Primary_Result_Summary>
+			<purpose>Science</purpose>
+			<processing_level>Calibrated</processing_level>
+			<Science_Facets>
+				<wavelength_range>Visible</wavelength_range>
+				<domain>Surface</domain>
+			</Science_Facets>
+		</Primary_Result_Summary>
+		<Investigation_Area>
+			<name>HX-1</name>
+			<type>Mission</type>
+		</Investigation_Area>
+		<Observing_System>
+			<name>HX-1 Rover</name>
+			<Observing_System_Component>
+				<name>Navigation and Terrain Camera</name>
+				<type>Instrument</type>
+			</Observing_System_Component>
+		</Observing_System>
+		<Target_Identification>
+			<name>Mars</name>
+			<type>Planet</type>
+		</Target_Identification>
+		<Mission_Area>
+			<product_id>HX1-Ro_GRAS_NaTeCamB-F-002_SCI_N_20220412171345_20220412171345_00325_A.2C</product_id>
+			<product_version>A</product_version>
+			<product_level>2C</product_level>
+			<instrument_name>Navigation and Terrain Camera</instrument_name>
+			<instrument_id>NaTeCam</instrument_id>
+			<sequence_id>00325</sequence_id>
+			<Instrument_Parm>
+				<bands unit="nm">400-700</bands>
+				<fov unit="deg">46.4×46.4</fov>
+				<pixel_size unit="micrometer">5.5</pixel_size>
+				<focal_length unit="mm">13.174201</focal_length>
+				<Principal_Point_Coordinate>
+					<x0 unit="mm">0.010239</x0>
+					<y0 unit="mm">0.022188</y0>
+				</Principal_Point_Coordinate>
+			</Instrument_Parm>
+			<Work_Mode_Parm>
+				<compression_ratio>16</compression_ratio>
+				<exposure_time unit="ms">6.00</exposure_time>
+				<temperature unit="degC">-34.36</temperature>
+			</Work_Mode_Parm>
+			<Quality_Information>
+				<quality_information>0x00</quality_information>
+				<description>The quality_information is set to an 8-bit value that encodes the following data quality information for the observation. （bit order:bit7,bit6,....,bit0）, For each bit a value of 0 means FALSE and a value of 1 means TRUE. Each bit is described as follows: Bit7:Processing exceptions occur in previous leve data. Bit6~Bit0:Spare.</description>
+			</Quality_Information>
+			<Processing_Parm>
+				<Absolute_Radiation_Calibration_Parameters>
+					<absR unit="(DN*ms**-1)/(W*m**-2*sr**-1*nm**-1)">799.93</absR>
+					<absG unit="(DN*ms**-1)/(W*m**-2*sr**-1*nm**-1)">707.28</absG>
+					<absB unit="(DN*ms**-1)/(W*m**-2*sr**-1*nm**-1)">414.65</absB>
+				</Absolute_Radiation_Calibration_Parameters>
+				<description>none</description>
+			</Processing_Parm>
+			<Mast_Rotation_angle>
+				<roll unit="deg">-0.18</roll>
+				<mast_pitch unit="deg">-19.95</mast_pitch>
+				<mast_yaw unit="deg">-29.88</mast_yaw>
+			</Mast_Rotation_angle>
+			<Rover_Attitude>
+				<pitch unit="deg">177.659769</pitch>
+				<roll unit="deg">0.911921</roll>
+				<yaw unit="deg">-88.121223</yaw>
+			</Rover_Attitude>
+			<Rover_Location>
+				<reference_frame>MARS_COORDINATE_SYSTEM</reference_frame>
+				<longitude unit="deg">109.912440</longitude>
+				<latitude unit="deg">25.060494</latitude>
+				<altitude unit="km">-4.935192</altitude>
+			</Rover_Location>
+			<Rover_Location_xyz>
+				<reference_frame>LANDING_SITE_COORDINATE_SYSTEM</reference_frame>
+				<x unit="m">214.380725</x>
+				<y unit="m">-1350.830962</y>
+				<z unit="m">-15.567699</z>
+			</Rover_Location_xyz>
+			<Landing_Site_Location>
+				<reference_frame>MARS_COORDINATE_SYSTEM</reference_frame>
+				<longitude unit="deg">109.908440</longitude>
+				<latitude unit="deg">25.083318</latitude>
+				<altitude unit="km">-4.918556</altitude>
+			</Landing_Site_Location>
+			<Vector_Cartesian_3_Pointing>
+				<reference_frame>ROVER_COORDINATE_SYSTEM</reference_frame>
+				<Up_Left_Point_Observe_Vector>
+					<x>-0.096682</x>
+					<y>-0.995054</y>
+					<z>0.022802</z>
+				</Up_Left_Point_Observe_Vector>
+				<Down_Left_Point_Observe_vector>
+					<x>-0.038858</x>
+					<y>-0.747550</y>
+					<z>-0.663068</z>
+				</Down_Left_Point_Observe_vector>
+				<Up_Right_Point_Observe_Vector>
+					<x>-0.744950</x>
+					<y>-0.661239</y>
+					<z>0.088387</z>
+				</Up_Right_Point_Observe_Vector>
+				<Down_Right_Point_Observe_Vector>
+					<x>-0.686322</x>
+					<y>-0.413977</y>
+					<z>-0.597984</z>
+				</Down_Right_Point_Observe_Vector>
+				<Center_Point_Observe_Vector>
+					<x>-0.457588</x>
+					<y>-0.823167</y>
+					<z>-0.336168</z>
+				</Center_Point_Observe_Vector>
+			</Vector_Cartesian_3_Pointing>
+			<Exterior_Orientation_Elements>
+				<reference_frame>ROVER_COORDINATE_SYSTEM</reference_frame>
+				<camera_center_position_x unit="m">0.155871</camera_center_position_x>
+				<camera_center_position_y unit="m">-0.931396</camera_center_position_y>
+				<camera_center_position_z unit="m">1.510688</camera_center_position_z>
+				<camera_rotation_angle_roll unit="deg">-53.909856</camera_rotation_angle_roll>
+				<camera_rotation_angle_pitch unit="deg">-55.422228</camera_rotation_angle_pitch>
+				<camera_rotation_angle_yaw unit="deg">126.422983</camera_rotation_angle_yaw>
+			</Exterior_Orientation_Elements>
+			<Angle_pointing_results>
+				<solar_incidence_angle unit="deg">40.102436</solar_incidence_angle>
+				<solar_azimuth_angle unit="deg">153.257936</solar_azimuth_angle>
+			</Angle_pointing_results>
+		</Mission_Area>
+	</Observation_Area>
+	<File_Area_Observational>
+		<File>
+			<file_name>HX1-Ro_GRAS_NaTeCamB-F-002_SCI_N_20220412171345_20220412171345_00325_A.2C</file_name>
+			<creation_date_time>2022-05-05T02:19:05Z</creation_date_time>
+			<file_size unit="byte">12582912</file_size>
+			<records>1</records>
+		</File>
+		<Array_3D_Image>
+			<offset unit="byte">0</offset>
+			<axes>3</axes>
+			<axis_index_order>Last Index Fastest</axis_index_order>
+			<Element_Array>
+				<data_type>UnsignedByte</data_type>
+				<unit>data number</unit>
+			</Element_Array>
+			<Axis_Array>
+				<axis_name>Line</axis_name>
+				<elements>2048</elements>
+				<sequence_number>1</sequence_number>
+			</Axis_Array>
+			<Axis_Array>
+				<axis_name>Sample</axis_name>
+				<elements>2048</elements>
+				<sequence_number>2</sequence_number>
+			</Axis_Array>
+			<Axis_Array>
+				<axis_name>Band</axis_name>
+				<elements>3</elements>
+				<sequence_number>3</sequence_number>
+			</Axis_Array>
+		</Array_3D_Image>
+	</File_Area_Observational>
+</Product_Observational>
